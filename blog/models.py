@@ -1,9 +1,9 @@
 from django.db import models
-
+from django.utils import timezone
 class Post(models.Model):
-    title = models.CharField(max_length=200)
+    title = models.CharField(max_length=100)
     content = models.TextField()
-    created_at = models.DateTimeField(auto_now_add=True)
+    created_at = models.DateTimeField(default=timezone.now)
     liked = models.BooleanField(default=False)
 
     def __str__(self):
