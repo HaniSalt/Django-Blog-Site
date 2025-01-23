@@ -1,0 +1,13 @@
+{% extends "blog/base.html" %}
+
+{% block content %}
+    <div class="post">
+        <h1>{{ post.title }}</h1>
+        <p>{{ post.content }}</p>
+        <p>Created at: {{ post.created_at }}</p>
+        <button class="like-btn" data-post-id="{{ post.pk }}">
+            {% if post.liked %}Unlike{% else %}Like{% endif %}
+        </button>
+    </div>
+    <a href="{% url 'home' %}">Back to Home</a>
+{% endblock %}
