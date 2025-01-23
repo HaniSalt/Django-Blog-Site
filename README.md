@@ -13,9 +13,9 @@ This is a mini web application built with Django to manage blog posts. It allows
 - Python 3.8+
 - Django 4.2+
 
-## Installation
+## Installation and Setup
 1. Clone the repository:
-   git clone <repository-url>
+git clone https://github.com/HaniSalt/Django-Blog-Site.git
 
 2. Move to the cloned directory: cd blog
 
