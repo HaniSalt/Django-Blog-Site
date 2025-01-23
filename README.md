@@ -7,7 +7,7 @@ This is a mini web application built with Django to manage blog posts. It allows
 - **List posts**: All posts are displayed on the home page, sorted by creation date (newest first).
 - **Filter posts**: Users can search for posts by entering a substring in the search bar. The search checks both the title and content of posts.
 - **View post details**: Clicking on a post title takes the user to a detailed view of the post. Once done, the user may return to the main page.
-- **Like a post**: Users can like a post without reloading the page. The like button updates dynamically using AJAX.
+- **Like a post**: Users can like a post without reloading the page. The like button updates dynamically.
 
 ## Requirements
 - Python 3.8+
